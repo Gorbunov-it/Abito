@@ -7,20 +7,17 @@
     <title>Abito - доска объявлений</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
   </head>
 
   <body>
     <!-- HEADER START -->
-    <header class="header">
+    <header class="header container">
       <div class="navbar">
         <a href="/index.html" class="logo">
-          <img src="images/logo.svg" alt="logo: Abito" class="logo-images" />
+          <img src="./images/logo.svg" alt="logo: Abito" class="logo-images" />
         </a>
         <!-- Навигационное меню-->
         <nav class="navbar-menu">
@@ -52,18 +49,195 @@
       </div>
       <!-- /.navbar -->
       <div class="search-panel">
-        <input
-          type="search"
-          class="search-input"
-          placeholder="Поиск по объявлению"
-        />
+        <input type="search" class="search-input" placeholder="Поиск по объявлению" />
         <button class="search-button">
-          <img src="/images/search-button.svg" alt="search: button" />
+          <img src="./images/search-button.svg" alt="search: button" />
           <span class="search-button-text">Найти</span>
         </button>
       </div>
       <!-- /.search-panel -->
     </header>
     <!-- HEADER END-->
+
+    <!-- Главная страница -->
+    <div class="page-content container">
+      <!-- Блок с объявлениями -->
+      <main class="main">
+        <h2 class="title-recommendation">Рекомендации для вас</h2>
+        <!-- Коллекция карточек -->
+        <div class="cards">
+          <!-- Карточка -->
+          <div class="card">
+            <a href="#" class="card-link">
+              <img src="./images/cards/pic-1.png" alt="" class="card-image" />
+            </a>
+            <!-- Заголовок карточки -->
+            <div class="card-header">
+              <a href="#" class="card-link">
+                <h3 class="card-title">Электросамокат</h3>
+              </a>
+              <button class="like">
+                <img src="./images/favourite.svg" alt="" class="button-like" />
+              </button>
+            </div>
+            <!-- Заголовок карточки -->
+            <strong class="card-price">10 980 ₽</strong>
+            <p class="card-text card-address">Казань, р-н Ново-Савиновский</p>
+            <p class="card-text card-date">10 июля 11:39</p>
+          </div>
+          <!-- Карточка -->
+          <!-- Карточка -->
+          <div class="card">
+            <a href="#" class="card-link">
+              <img src="./images/cards/pic-2.png" alt="" class="card-image" />
+            </a>
+            <!-- Заголовок карточки -->
+            <div class="card-header">
+              <a href="#" class="card-link"><h3 class="card-title">Пвх материал 2й сорт</h3> </a>
+              <button class="like">
+                <img src="./images/favourite.svg" alt="" class="button-like" />
+              </button>
+            </div>
+            <!-- Заголовок карточки -->
+            <strong class="card-price">170 ₽</strong>
+            <p class="card-text card-address">Казань, р-н Вахитовский</p>
+            <p class="card-text card-date">10 июля 11:39</p>
+          </div>
+          <!-- Карточка -->
+          <!-- Карточка -->
+          <div class="card">
+            <a href="#" class="card-link">
+              <img src="./images/cards/pic-3.png" alt="" class="card-image" />
+            </a>
+            <!-- Заголовок карточки -->
+            <div class="card-header">
+              <a href="#" class="card-link">
+                <h3 class="card-title">Двухсторонняя ветровка для мальчика</h3>
+              </a>
+              <button class="like">
+                <img src="./images/favourite.svg" alt="" class="button-like" />
+              </button>
+            </div>
+            <!-- Заголовок карточки -->
+            <strong class="card-price">2 110 ₽</strong>
+            <p class="card-text card-address">Казань, р-н Ново-Савиновский</p>
+            <p class="card-text card-date">10 июля 11:39</p>
+          </div>
+          <!-- Карточка -->
+          <!-- Карточка -->
+          <div class="card">
+            <a href="#" class="card-link">
+              <img src="./images/cards/pic-4.png" alt="" class="card-image" />
+            </a>
+            <!-- Заголовок карточки -->
+            <div class="card-header">
+              <a href="#" class="card-link">
+                <h3 class="card-title">Пеленальная доска на комод</h3>
+              </a>
+              <button class="like">
+                <img src="./images/favourite.svg" alt="" class="button-like" />
+              </button>
+            </div>
+            <!-- Заголовок карточки -->
+            <strong class="card-price">200 ₽</strong>
+            <p class="card-text card-address">Казань, р-н Ново-Савиновский</p>
+            <p class="card-text card-date">10 июля 11:39</p>
+          </div>
+          <!-- Карточка -->
+          <!-- Карточка -->
+          <div class="card">
+            <a href="#" class="card-link">
+              <img src="./images/cards/pic-5.png" alt="" class="card-image" />
+            </a>
+            <!-- Заголовок карточки -->
+            <div class="card-header">
+              <a href="#" class="card-link">
+                <h3 class="card-title">Участок 8 сот. (ИЖС)</h3>
+              </a>
+              <button class="like">
+                <img src="./images/favourite.svg" alt="" class="button-like" />
+              </button>
+            </div>
+            <!-- Заголовок карточки -->
+            <strong class="card-price">101 980 ₽</strong>
+            <p class="card-text card-address">Казань, р-н Ново-Савиновский</p>
+            <p class="card-text card-date">10 июля 11:39</p>
+          </div>
+          <!-- Карточка -->
+          <!-- Карточка -->
+          <div class="card">
+            <a href="#" class="card-link">
+              <img src="./images/cards/pic-6.png" alt="" class="card-image" />
+            </a>
+            <!-- Заголовок карточки -->
+            <div class="card-header">
+              <a href="#" class="card-link">
+                <h3 class="card-title">Ford Fusion, 2007</h3>
+              </a>
+              <button class="like">
+                <img src="./images/favourite.svg" alt="" class="button-like" />
+              </button>
+            </div>
+            <!-- Заголовок карточки -->
+            <strong class="card-price">340 000 ₽</strong>
+            <p class="card-text card-address">Казань, р-н Ново-Савиновский</p>
+            <p class="card-text card-date">10 июля 11:39</p>
+          </div>
+          <!-- Карточка -->
+        </div>
+        <!-- Коллекция карточек -->
+      </main>
+      <!-- Блок сервисы -->
+      <aside class="sidebar">
+        <h4 class="title-service">Сервис и услуги</h4>
+        <!-- Карточка -->
+        <div class="service">
+          <img src="./images/shipping.svg" alt="icon: shipping" class="service-image" />
+          <h5 class="service-title">Доставка</h5>
+          <p class="service-text">Проверка при получении и возможность бесплатно вернуть товар</p>
+        </div>
+        <!-- Карточка -->
+        <div class="service">
+          <img src="./images/avtoteka.svg" alt="icon: shipping" class="service-image" />
+          <h5 class="service-title">Автотека</h5>
+          <p class="service-text">Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах</p>
+        </div>
+        <!-- Карточка -->
+        <div class="service">
+          <img src="./images/housing.svg" alt="icon: shipping" class="service-image" />
+          <h5 class="service-title">Онлайн-бронирование жилья</h5>
+          <p class="service-text">Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России</p>
+        </div>
+        <!-- Карточка -->
+        <hr class="page-line" />
+        <footer class="footer">
+          <p class="footer-text">© ООО «Абито», 2011–2021</p>
+          <!-- Меню верхнее -->
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <a href="#" class="footer-menu-text">Политика конфиденциальности</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#" class="footer-menu-text">Обработка данных</a>
+            </li>
+          </ul>
+          <!-- Меню верхнее -->
+          <!-- Меню нижнее-->
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <a href="#" class="footer-link">Реклама на сайте</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#" class="footer-link">Вакансии</a>
+            </li>
+            <li class="footer-menu-item">
+              <a href="#" class="footer-link">Помощь</a>
+            </li>
+          </ul>
+          <!-- Меню нижнее-->
+        </footer>
+      </aside>
+    </div>
+    <!-- Главная страница -->
   </body>
 </html>
